@@ -8,7 +8,7 @@
 "bs:nav-pills-stacked": "ul.nav.nav-pills.nav-pills-stacked>li.active>a^(li>a)*2",
 "bs:carousel": ".carousel.slide#carousel-example>(ol.carousel-indicators>li[data-target=#carousel-example data-slide-to=$]*3)(.carousel-inner>.item*3>img[src=http://lorempixel.com/1170/300 alt=Image]+.carousel-caption{This is a caption $})(a[href=carousel-example data-slide=prev].left.carousel-control>span.icon-prev^a[href=carousel-example data-slide=next].right.carousel-control>span.icon-next)",
 "bs:navbar": ".navbar.navbar-default.navbar-fixed>.container>((.navbar-header>.navbar-brand+button.navbar-toggled.collapse[type=\"button\" data-toggle=\"collapse\" data-target=\"#main-menu\"]>(span.icon-bar*3)))+(.navbar-collapse.collapse>#main-menu.navbar-collapse>ul.nav.navbar-nav>(li>a)*3)",
-"bs:panel": ".panel.panel-deafult>.panel-heading>h3.panel-title^.panel-body+.panel-footer",
+"bs:panel": ".panel.panel-default>.panel-heading>h3.panel-title^.panel-body+.panel-footer",
 "bs:jumbotron": ".jumbotron>.container>h1+p+p>a.btn-btn.primary.btn-lg",
 "bs:page-header": ".page-header>h1",
 "bs:thumbnail": ".thumbnail>img+.caption>h3+p+p>a.btn.btn-primary",
