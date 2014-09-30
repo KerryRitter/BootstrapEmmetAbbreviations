@@ -1,5 +1,5 @@
-"bs:cdn": "html[lang=\"en\"]>head>(meta[charset=\"UTF-8\"]+title+link[rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css\"])^body>.container+script[\"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js\"])",
-"bs:dropdown": ".dropdown>button#dropdown-menu-1.btn.btn-default.dropdown-toggle[type=\"button\" data-toggle=\"dropdown\"]>span.caret^ul.dropdown-menu[role=\"menu\" aria-labelledby=\"dropdown-menu-1\"]>li[role=\"presentation\"]>a[role=\"menuitem\" tabindex=\"-1\" href=\"#\"]^+li[role=\"presentation\"].divider",
+"bs:cdncss": "link[rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css\"]",
+"bs:cdnjs": "<script type=\"//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js\"></script>","bs:dropdown": ".dropdown>button#dropdown-menu-1.btn.btn-default.dropdown-toggle[type=\"button\" data-toggle=\"dropdown\"]>span.caret^ul.dropdown-menu[role=\"menu\" aria-labelledby=\"dropdown-menu-1\"]>li[role=\"presentation\"]>a[role=\"menuitem\" tabindex=\"-1\" href=\"#\"]^+li[role=\"presentation\"].divider",
 "bs:btn-group": ".btn-group>button.btn.btn-default[type=\"button\"]*3",
 "bs:input-group": ".input-group>span.input-group-addon+input[type=\"text\"].form-control",
 "bs:checkbox-input": ".input-group>span.input-group-addon>input[type=\"checkbox\"]^input[type=\"text\"].form-control",
